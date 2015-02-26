@@ -1,0 +1,9 @@
+Latena Hazard
+Interactive Design:
+
+a. Click on borough and it links to the stories from each borough.
+b. A list of characters will appear. 
+c. Click on the character you choose 
+d. A video will appear
+i. Highlighted story topics will allow user to choose which story they want to read. 
+
