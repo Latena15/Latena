@@ -1,0 +1,50 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+}
+h1{
+	font-family: 'Mf Love Song';
+  	font-weight: bold;
+   	font-style: normal;
+	font-size: 50px;
+	color:red;
+	text-align: center;
+}
+h2{
+	font-family: 'MinionPro-Regular';
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	margin-top: -50px;
+}
+p{
+	font-family: 'MinionPro-Regular';
+	font-size: 32px;
+	text-align: right;
+	color:red;
+	font-style: italic;
+	margin-top: 50px;
+	padding-left: 40px;
+}
+h3{
+	font-family: 'MinionPro-Regular';
+	font-size: 26px;
+	text-align: right;
+	font-weight: bold;
+	color:#000;
+	margin-top: 70px;
+}
+#wrapper{
+	width: 960px;
+	height: 600px;
+	margin-left: 100px;
+}
+img{
+	margin-left: -50px;
+}
