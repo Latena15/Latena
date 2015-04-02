@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dating in NYC</title>
+ 	<script>
+	 	function allowDrop(ev) {
+	    ev.preventDefault();
+}
+
+		function drag(ev) {
+		    ev.dataTransfer.setData("heart", ev.target.id);
+}
+
+		function drop(ev) {
+		    ev.preventDefault();
+		    var data = ev.dataTransfer.getData("heart");
+		    ev.target.appendChild(document.getElementById(data));
+}
+		// $(function() {
+		// 	$( "input[type=submit], a, button" )
+		// 	.button()
+		// 	.click(function( event ) {
+		// 	event.preventDefault();
+		// 	});
+		// });
+	</script>
+
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+
+	<body>
+		<div id='wrapper'>
+
+			<div id='heading' class='heading'>
+				<h1>Dating in New York City</h1>
+				<h2>A Males Perspective</h2>
+			</div>
+
+			<div id="Bronx">
+				<div class="heart">
+					<a href="Brian.wmv" target="_blank"></a>. 
+						<img src = "img/heart2.jpg">
+					</a>
+					<h3>Bronx</h3>
+				</div>
+			</div>
+			
+			<div id="Brooklyn">
+				<div class="heart">
+					<img src = "img/heart2.jpg">
+						<div class=
+					<iframe width="420" height="315"  src="https://youtu.be/WccNZBnrfK8"></iframe>
+					<h3>Brooklyn</h3>
+				</div>
+			</div>
+
+			<div id="Manhattan"> 
+				<div class="heart">
+				<a href="" target="_blank">
+						<img src = "img/heart2.jpg">
+					</a>
+					<h3>Manhattan</h3>
+				</div>
+			</div>
+
+			<div id="Queens">
+			 	<div class="heart">
+				<a href="file:///C:/Users/Latena/Desktop/Columbia%20Journalism/Interactive%20Design/Mid-Term/video/Gardeaworst.mp4">
+						<img src = "img/heart2.jpg">
+					</a>
+			 		<h3>Queens</h3>
+			 	</div>
+			</div>
+				
+			<div id="Staten Island"> 
+				<div class="heart">
+					<a href="default.asp">
+						<img src = "img/heart2.jpg">
+					</a>
+					<h3>Staten Island</h3>
+			 	</div>
+						<!-- <button type="button" onclick="alert('Staten Island')">Staten Island</button> -->
+			</div>  
+				
+		<!-- <div class="js-slider"></div> -->
+
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery-ui.min.js"></script>
+			<script src="js/main.js"></script> -->
+			
+			<!-- <div id='img' class='img'>
+					<img src="img/NewMap.jpg" class="Love" alt="Love"/ width="400" height="400" align='left'>
+			</div>
+ -->
+			<div id='text' class='text'>
+				<p> New York City has a 3 to 1 ratio of single females to men. Yet, most men still find dating in the city difficult.</p> 
+			</div>
+
+	</body>
+</html>
