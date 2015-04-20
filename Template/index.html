@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>Movie Gross 2014</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+
+	<div id="container">
+<!-- 		<div class= "movie-container">
+			<div class="current-gross-container">
+				 <img src="broken.jpg"/>
+				<div class="current-movie-value">$347,753,000</div>
+			</div>
+			<div class="name">CITY NAME</div>
+			<div class="average-temp">Average: 3.3</div>
+			<div class="temp-range">Low/high: 10 to 95</div>
+		</div> -->
+	</div>
+
+	<script id="movie-template" type="text/jst">
+		<div class="movie-container">
+			<div class="current-movie-container">
+			  <img src="imgs/<%= image %>"/>
+				<div class="current-movie-gross"><current_movie></div>
+			</div>
+				<div class="name"><name></div>
+				<div class="total-gross">total-gross<total-gross></div>
+				<div class="opening-gross">opening-gross</div>
+		</div>	
+	</script>
+
+
+	<script src="js/thirdparty/jquery-1.11.1.min.js"></script>
+	<script src="js/thirdparty/d3.v3.min.js"></script>
+	<script src="js/thirdparty/underscore-min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
