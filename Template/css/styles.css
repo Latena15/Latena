@@ -2,34 +2,36 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: Helvetica, sans-serif;
+	font-family: times, sans-serif;
 }
 
 .movie-container{
-	background-color: blue;
+	background-color: pink;
 	border-radius: 5px;
 	width: 250px;
 	margin: 10px;
 	padding: 10px;
-	box-shadow: 0 0 6px #ccc;
+	box-shadow: 0 0 6px black;
 	font-size: 12px;
 	border: 1px solid #ccc;
 	line-height: 16px;
 	display: inline-block;
 	vertical-align: top;
 }
-.current-movie-container img{
-	width: 50px;
+.gross-container img{
+	width: 90px;
 }
 
-.name{
+.Name{
 	font-weight: bold;
 }
 
-.current-temp-container{
+.total_gross{
+	font-weight: bold;
+	text-align: right;
+}
+
+.current-movie-container{
 	font-size: 25px;
 	font-weight: bold;
-}
-.current-temp-value{
-	float: right;
 }
