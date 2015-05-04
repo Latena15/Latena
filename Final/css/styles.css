@@ -1,0 +1,90 @@
+body{
+	font-family: Helvetica;
+	background-image: url("background-image.jpg");
+}
+
+{
+	width: 200px;
+	height: 200px;
+	background-color: magenta;
+	margin-bottom: 10px;
+}
+
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	background-color: red;
+}
+
+p{
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	font-weight: bold;
+}
+.question-text{
+	font-weight: bold;
+	font-family: times;
+	font-size: 25px;
+	text-align: center;
+}
+.answer{
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	
+}
+
+.answers-container.answered .answer[data-correct="false"]{
+	background-color: white;
+	color: red;
+}
+
+.answers-container.answered .answer[data-correct="true"]{
+	background-color: white;
+	color: green;
+	font-weight: bold;
+}
+
+.explanation{
+	display: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.answers-container.answered .explanation{
+	display: block;
+}
+
+.question-group-container{
+	margin-bottom: 30px;
+}
+.option{
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	padding: 4px 6px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	box-shadow: 0 0 4px #ccc;
+	background-color: #fff;
+}
+
+.option:hover{
+	cursor: pointer;
+}
+.option:not(.active):hover{
+	background-color: yellow;
+}
+
+.active{
+	background-color: #000;
+}
+
+.button{
+	text-align: center;
+}
